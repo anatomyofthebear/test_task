@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Users list</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <h1 class="header__title">Users list</h1> 
+            <div class="header__sort">
+                <p>Sort:</p>
+                <select class="header__sort__method">
+                    <option value="0">-</option>
+                    <option value="asc"> A - z </option>
+                    <option value="desc"> Z - a </option>
+                </select>
+                
+                <p>Sort by:</p>
+                <select class="header__sort__by">
+                    <option value="firstName">First Name</option>
+                    <option value="secondName">Last Name</option>
+                </select>
+            </div>     
+        </div>   
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="users">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="popup">
+        <div class="container">
+            <div class="user-card">
+                <div class="popup--close" title="Close">
+                    &#10006;
+                </div>
+                <div class="user-card__picture">
+                    
+                </div>
+                <div class="user-card__info">
+                    <ul>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
